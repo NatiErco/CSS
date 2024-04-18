@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 50vw; /* ALTURA MAXIMA */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+div {
+  display: block;
+  /* border: 1px solid black; */
+  width: 15vw;
+  height: 50vw;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.yellow {
+  background-color: rgb(237, 237, 178);
+}
+.red {
+  background-color: rgb(244, 172, 172);
+}
+.green {
+  background-color: rgb(198, 237, 157);
+  width: 10vw;
+}
+
+.orange {
+  background-color: rgb(251, 207, 126);
+  width: 25vw;
+}
+.blue {
+  background-color: rgb(183, 183, 239);
+  width: 10vw;
+}
+
+li {
+  margin-top: 5vw;
+  width: 5vw;
+  height: 5vw;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: aliceblue;
+  /* justify-content: space-between; */
+  margin-left: 55px;
+  padding: 3px;
+}
