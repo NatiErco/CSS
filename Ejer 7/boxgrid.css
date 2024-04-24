@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap:20px;
+  /* grid-template-areas:
+    "green green green green"
+    "yellow yellow  red blue"
+    "orange orange orange blue"; */
+}
+
+div {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.green {
+  background-color: rgb(198, 237, 157);
+  /* grid-area: green; */
+  /* width: 10vw; */
+  grid-column: span 6;
+  grid-row: span 2;
+  text-align: left;
+  padding: 20px;
+  height: 50px;
+}
+
+.yellow {
+  background-color: rgb(237, 237, 178);
+  /* grid-area: yellow; */
+  grid-column: span 2;
+  height: 200px;
+  text-align: left;
+  padding: 20px;
+  
+}
+.red {
+  background-color: rgb(244, 172, 172);
+  /* grid-area: red; */
+  grid-column: span 2;
+  height: 200px;
+  text-align: left;
+  padding: 20px;
+}
+
+.orange {
+  background-color: rgb(237, 201, 135);
+  /* grid-area: orange; */
+  /* width: 25vw; */
+  height: 50px;
+  grid-column: span 4;
+  grid-row: span 2;
+  text-align: left;
+  padding: 20px;
+}
+.blue {
+  background-color: rgb(183, 183, 239);
+  /* grid-area: blue; */
+  /* width: 10vw; */
+  grid-column: span 2;
+  grid-row: span 3;
+  text-align: left;
+  padding: 20px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+li {
+  margin-top: 10px;
+  width: 3vw;
+  height: 3vw;
+  list-style-type: none;
+  background-color: aliceblue;
+  margin-left: 55px;
+  padding: 5px;
+}
